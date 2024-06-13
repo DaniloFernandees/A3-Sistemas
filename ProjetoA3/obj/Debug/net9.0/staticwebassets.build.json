@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "T/NpQ25Fyqcs3Eun4gfnI2c7hsCsywokF+6u7dhvxiQ=",
+=======
+  "Hash": "mEj14lK7PcleRJUFuwa+0KDzm0Cw9e7n3fcE7378+x0=",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
   "Source": "ProjetoA3",
   "BasePath": "_content/ProjetoA3",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "ProjetoA3\\wwwroot",
       "Source": "ProjetoA3",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "BasePath": "_content/ProjetoA3",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
+=======
+      "Identity": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
+      "SourceId": "ProjetoA3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "index.html.gz",
       "AssetKind": "All",
@@ -28,13 +43,18 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
+<<<<<<< HEAD
       "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
+=======
+      "RelatedAsset": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "xj98n6to7u",
       "Integrity": "XQHdxLd0vcNsUg222Wcw/FdYEiFsBPtD9n26lDwdSbM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html"
     },
     {
@@ -42,6 +62,15 @@
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\gigec8izwm.gz",
+      "SourceId": "ProjetoA3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "scripts.js.gz",
       "AssetKind": "All",
@@ -49,13 +78,18 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
+<<<<<<< HEAD
       "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\scripts.js",
+=======
+      "RelatedAsset": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\scripts.js",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "a4kq0trvy6",
       "Integrity": "WuwRKhNwvjsHYBxIFmLdgT2DhgCvSkv6QkdXvooGzSw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\scripts.js"
     },
     {
@@ -63,6 +97,15 @@
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\scripts.js"
+    },
+    {
+      "Identity": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
+      "SourceId": "ProjetoA3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "styles.css.gz",
       "AssetKind": "All",
@@ -70,13 +113,18 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
+<<<<<<< HEAD
       "RelatedAsset": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+=======
+      "RelatedAsset": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "lu0dxlnkha",
       "Integrity": "cxVZNDvF/KSudX6OnYKD8bi40IW970CehHy4voWIn9g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css"
     },
     {
@@ -84,6 +132,15 @@
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
+      "SourceId": "ProjetoA3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -101,10 +158,17 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\scripts.js",
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\scripts.js",
+      "SourceId": "ProjetoA3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "scripts.js",
       "AssetKind": "All",
@@ -122,10 +186,17 @@
       "OriginalItemSpec": "wwwroot\\scripts.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+      "SourceId": "ProjetoA3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "styles.css",
       "AssetKind": "All",
@@ -146,7 +217,11 @@
   "Endpoints": [
     {
       "Route": "index.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
+=======
+      "AssetFile": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -169,7 +244,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Jun 2024 02:25:11 GMT"
+=======
+          "Value": "Thu, 13 Jun 2024 02:24:03 GMT"
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
         },
         {
           "Name": "Content-Encoding",
@@ -192,7 +271,11 @@
     },
     {
       "Route": "index.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
+=======
+      "AssetFile": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -213,14 +296,22 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Jun 2024 02:25:11 GMT"
+=======
+          "Value": "Thu, 13 Jun 2024 02:24:03 GMT"
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
         }
       ],
       "EndpointProperties": []
     },
     {
       "Route": "index.html.gz",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
+=======
+      "AssetFile": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -241,7 +332,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Jun 2024 02:25:11 GMT"
+=======
+          "Value": "Thu, 13 Jun 2024 02:24:03 GMT"
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
         },
         {
           "Name": "Content-Encoding",
@@ -256,7 +351,11 @@
     },
     {
       "Route": "scripts.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\gigec8izwm.gz",
+=======
+      "AssetFile": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\gigec8izwm.gz",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -279,7 +378,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Jun 2024 02:25:11 GMT"
+=======
+          "Value": "Thu, 13 Jun 2024 02:24:03 GMT"
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
         },
         {
           "Name": "Content-Encoding",
@@ -302,7 +405,11 @@
     },
     {
       "Route": "scripts.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\scripts.js",
+=======
+      "AssetFile": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\scripts.js",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -323,14 +430,22 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Jun 2024 02:25:11 GMT"
+=======
+          "Value": "Thu, 13 Jun 2024 02:24:03 GMT"
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
         }
       ],
       "EndpointProperties": []
     },
     {
       "Route": "scripts.js.gz",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\gigec8izwm.gz",
+=======
+      "AssetFile": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\gigec8izwm.gz",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -351,7 +466,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Jun 2024 02:25:11 GMT"
+=======
+          "Value": "Thu, 13 Jun 2024 02:24:03 GMT"
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
         },
         {
           "Name": "Content-Encoding",
@@ -366,7 +485,11 @@
     },
     {
       "Route": "styles.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
+=======
+      "AssetFile": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -389,7 +512,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Jun 2024 02:15:11 GMT"
+=======
+          "Value": "Thu, 13 Jun 2024 02:06:48 GMT"
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
         },
         {
           "Name": "Content-Encoding",
@@ -412,7 +539,11 @@
     },
     {
       "Route": "styles.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+=======
+      "AssetFile": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -433,14 +564,22 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Jun 2024 02:15:11 GMT"
+=======
+          "Value": "Thu, 13 Jun 2024 02:06:48 GMT"
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
         }
       ],
       "EndpointProperties": []
     },
     {
       "Route": "styles.css.gz",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
+=======
+      "AssetFile": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -461,7 +600,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 13 Jun 2024 02:15:11 GMT"
+=======
+          "Value": "Thu, 13 Jun 2024 02:06:48 GMT"
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
         },
         {
           "Name": "Content-Encoding",

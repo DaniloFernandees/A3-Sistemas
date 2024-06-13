@@ -1,6 +1,7 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
@@ -10,6 +11,17 @@
     },
     {
       "Id": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+=======
+      "Id": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\scripts.js",
+      "PackagePath": "staticwebassets\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+>>>>>>> 9f779fe7f48406c3832ab7a942384fa3b43636d9
       "PackagePath": "staticwebassets\\styles.css"
     },
     {
