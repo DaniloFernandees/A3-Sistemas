@@ -27,3 +27,21 @@ namespace ProjetoA3.Controllers
         }
     }
 }
+[HttpPut("{id}")]
+        public ActionResult<TaskModel> Put(int id, TaskModel task)
+        {
+            var existingTask = _context.Tasks.Find(id);
+            if (existingTask == null)
+            {
+                return NotFound();
+            }
+
+            existingTask.Title = task.Title;
+            existingTask.Description = task.Description;
+            existingTask.IsComplete = task.IsComplete;
+
+            _context.SaveChanges();
+
+            return Ok(existingTask);
+        }
+        
