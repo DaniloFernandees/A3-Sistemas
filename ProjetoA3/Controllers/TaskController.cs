@@ -1,30 +1,21 @@
 using Microsoft.AspNetCore.Mvc;
+using ProjetoA3.Models;
+using System.Collections.Generic;
+using System.Linq;
+using TaskModel = ProjetoA3.Models.Task;
 
 namespace ProjetoA3.Controllers
 {
-    [Route("api/tasks")]
+    [Route("api/[controller]")]
     [ApiController]
-    public class TaskController : ControllerBase
+    public class TaskController(ApplicationDbContext context) : ControllerBase
     {
-        private static List<Task> tasks = new List<Task>();
+        private readonly ApplicationDbContext _context = context;
 
-        // GET: api/tasks
         [HttpGet]
-        public IEnumerable<Task> Get()
+        public ActionResult<IEnumerable<TaskModel>> Get()
         {
-            return tasks;
-        }
-
-        // GET: api/tasks/{id}
-        [HttpGet("{id}")]
-        public ActionResult<Task> Get(int id)
-        {
-            var task = tasks.FirstOrDefault(t => t.Id == id);
-            if (task == null)
-            {
-                return NotFound();
-            }
-            return task;
+            return _context.Tasks.ToList();
         }
     }
 }
