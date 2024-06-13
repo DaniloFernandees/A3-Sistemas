@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {}
+    "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {}
   },
   "projects": {
-    "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {
+    "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+        "projectUniqueName": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
         "projectName": "ProjetoA3",
-        "projectPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\",
+        "projectPath": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+        "packagesPath": "C:\\Users\\Danilo Fernandes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Danilo Fernandes\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Danilo Fernandes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
