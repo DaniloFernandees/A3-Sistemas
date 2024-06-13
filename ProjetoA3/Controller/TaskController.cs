@@ -40,6 +40,7 @@ namespace ProjetoA3.Controllers
         [HttpPost]
         public async Task<ActionResult<TaskItem>> PostTaskItem(TaskItem taskItem)
         {
+            Console.WriteLine($"Received TaskItem: Title={taskItem.Title}, Description={taskItem.Description}, IsCompleted={taskItem.IsCompleted}");
             _context.TaskItems.Add(taskItem);
             await _context.SaveChangesAsync();
 

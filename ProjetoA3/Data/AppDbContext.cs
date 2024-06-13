@@ -10,5 +10,12 @@ namespace ProjetoA3.Data
         }
 
         public DbSet<TaskItem> TaskItems { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<TaskItem>()
+                .Property(t => t.Id)
+                .ValueGeneratedOnAdd();
+        }
     }
 }

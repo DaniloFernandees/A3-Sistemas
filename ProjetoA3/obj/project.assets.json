@@ -2637,19 +2637,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC-CAIXA\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC-CAIXA\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+      "projectUniqueName": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
       "projectName": "ProjetoA3",
-      "projectPath": "C:\\Users\\PC-CAIXA\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
-      "packagesPath": "C:\\Users\\PC-CAIXA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC-CAIXA\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\",
+      "projectPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC-CAIXA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

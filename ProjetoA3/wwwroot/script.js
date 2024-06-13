@@ -18,11 +18,13 @@ $(document).ready(function() {
     });
 
     function loadTasks() {
-        $.getJSON('https://localhost:5127/api/tasks', function(tasks) {
+        $.getJSON('https://localhost:7047/api/tasks', function(tasks) {
             $('#taskList').empty();
+            console.log(tasks);
             tasks.forEach(function(task) {
                 $('#taskList').append(`
                     <li>
+                        <span>${task.id}</span>
                         <h3>${task.title}</h3>
                         <p>${task.description}</p>
                         <button onclick="editTask(${task.id})">Edit</button>
@@ -35,20 +37,23 @@ $(document).ready(function() {
 
     function createTask(task) {
         $.ajax({
-            url: 'https://localhost:5127/api/tasks',
+            url: 'https://localhost:7047/api/tasks',
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(task),
             success: function() {
                 loadTasks();
                 $('#taskForm')[0].reset();
+            },
+            error: function(xhr, status, error) {
+                console.error('Error creating task:', status, error);
             }
         });
     }
 
     function updateTask(task) {
         $.ajax({
-            url: `https://localhost:5127/api/tasks/${task.id}`,
+            url: `https://localhost:7047/api/tasks/${task.id}`,
             type: 'PUT',
             contentType: 'application/json',
             data: JSON.stringify(task),
@@ -60,7 +65,8 @@ $(document).ready(function() {
     }
 
     window.editTask = function(id) {
-        $.getJSON(`https://localhost:5127/api/tasks/${id}`, function(task) {
+        $.getJSON(`https://localhost:7047/api/tasks/${id}`, function(task) {
+            console.log(task);
             $('#taskId').val(task.id);
             $('#title').val(task.title);
             $('#description').val(task.description);
@@ -69,7 +75,7 @@ $(document).ready(function() {
 
     window.deleteTask = function(id) {
         $.ajax({
-            url: `https://localhost:5127/api/tasks/${id}`,
+            url: `https://localhost:7047/api/tasks/${id}`,
             type: 'DELETE',
             success: function() {
                 loadTasks();
