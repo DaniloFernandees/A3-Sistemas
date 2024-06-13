@@ -25,9 +25,7 @@ namespace ProjetoA3.Controllers
             _context.SaveChanges();
             return Ok(task);
         }
-    }
-}
-[HttpPut("{id}")]
+        [HttpPut("{id}")]
         public ActionResult<TaskModel> Put(int id, TaskModel task)
         {
             var existingTask = _context.Tasks.Find(id);
@@ -44,4 +42,6 @@ namespace ProjetoA3.Controllers
 
             return Ok(existingTask);
         }
+    }
+}
         
