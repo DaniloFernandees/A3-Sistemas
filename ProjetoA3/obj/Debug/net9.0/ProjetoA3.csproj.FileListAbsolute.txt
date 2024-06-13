@@ -35,3 +35,40 @@ D:\Users\USUARIO\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\refint\
 D:\Users\USUARIO\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.pdb
 D:\Users\USUARIO\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.genruntimeconfig.cache
 D:\Users\USUARIO\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ref\ProjetoA3.dll
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\appsettings.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\ProjetoA3.staticwebassets.endpoints.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\ProjetoA3.exe
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\ProjetoA3.deps.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\ProjetoA3.runtimeconfig.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\ProjetoA3.dll
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\ProjetoA3.pdb
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.csproj.AssemblyReference.cache
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.AssemblyInfoInputs.cache
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.AssemblyInfo.cs
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.csproj.CoreCompileInputs.cache
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.sourcelink.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\scopedcss\bundle\ProjetoA3.styles.css
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\staticwebassets\msbuild.ProjetoA3.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\staticwebassets\msbuild.ProjetoA3.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\staticwebassets\msbuild.build.ProjetoA3.props
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ProjetoA3.props
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ProjetoA3.props
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.csproj.Up2Date
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.dll
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\refint\ProjetoA3.dll
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.pdb
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ProjetoA3.genruntimeconfig.cache
+C:\Users\Danilo Fernandes\Documents\GitHub\A3-Sistemas\ProjetoA3\obj\Debug\net9.0\ref\ProjetoA3.dll
