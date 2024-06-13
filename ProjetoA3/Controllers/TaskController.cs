@@ -17,5 +17,13 @@ namespace ProjetoA3.Controllers
         {
             return _context.Tasks.ToList();
         }
+
+        [HttpPost]
+        public ActionResult<TaskModel> Post(TaskModel task)
+        {
+            _context.Tasks.Add(task);
+            _context.SaveChanges();
+            return Ok(task);
+        }
     }
 }
