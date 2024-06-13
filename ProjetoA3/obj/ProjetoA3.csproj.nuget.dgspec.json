@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {}
+    "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {}
   },
   "projects": {
-    "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {
+    "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
         "projectName": "ProjetoA3",
-        "projectPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\",
+        "projectPath": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\A3-Sistemas\\ProjetoA3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"

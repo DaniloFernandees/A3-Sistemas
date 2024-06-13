@@ -23,3 +23,5 @@ Gabriel Felipe de Albuquerque RA: 1282317359
 Érico Xavier de Araújo Menezes RA: 12822126669
 
 Lucas Oliveira de Albuquerque RA: 12823127090
+
+Marcondis Augusto da Silva Filho RA: 12822124297
