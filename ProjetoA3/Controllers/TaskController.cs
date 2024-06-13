@@ -25,6 +25,7 @@ namespace ProjetoA3.Controllers
             _context.SaveChanges();
             return Ok(task);
         }
+        
         [HttpPut("{id}")]
         public ActionResult<TaskModel> Put(int id, TaskModel task)
         {
@@ -41,6 +42,21 @@ namespace ProjetoA3.Controllers
             _context.SaveChanges();
 
             return Ok(existingTask);
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            var task = _context.Tasks.Find(id);
+            if (task == null)
+            {
+                return NotFound();
+            }
+
+            _context.Tasks.Remove(task);
+            _context.SaveChanges();
+
+            return Ok();
         }
     }
 }
