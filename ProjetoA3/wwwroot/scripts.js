@@ -10,7 +10,7 @@ $(document).ready(function() {
             tarefas.forEach(function(tarefa) {
                 const divTarefa = `
                     <div class="tarefa">
-                        <p><strong>${tarefa.nome}</strong> - ${tarefa.concluida ? 'Concluída' : 'Pendente'}</p>
+                        <p>${tarefa.id}<strong>${tarefa.Title}</strong>${tarefa.Description} - ${tarefa.isComplete ? 'Concluída' : 'Pendente'}</p>
                     </div>
                 `;
                 listaTarefas.append(divTarefa);
@@ -26,14 +26,16 @@ $(document).ready(function() {
 
         const nome = $('#nome').val();
         const concluida = $('#concluida').is(':checked');
+        const descricao = $('#descricao').val();
 
         $.ajax({
             url: '/api/tarefas',
             method: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({
-                nome: nome,
-                concluida: concluida
+                Title: nome,
+                Description: descricao,
+                isComplete: concluida
             }),
             success: function(tarefa) {
                 const novaTarefa = `
