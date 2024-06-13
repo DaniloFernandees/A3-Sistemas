@@ -12,6 +12,16 @@ namespace ProjetoA3.Data
             modelBuilder.Entity<TaskItem>()
                 .Property(t => t.Id)
                 .ValueGeneratedOnAdd();
+
+            modelBuilder.Entity<TaskItem>()
+                .Property(t => t.CreationDate)
+                .HasColumnType("DATETIME");
+
+            modelBuilder.Entity<TaskItem>()
+                .Property(t => t.DeadDate)
+                .HasColumnType("DATETIME");
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

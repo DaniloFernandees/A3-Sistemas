@@ -40,7 +40,8 @@ namespace ProjetoA3.Controllers
         [HttpPost]
         public async Task<ActionResult<TaskItem>> PostTaskItem(TaskItem taskItem)
         {
-            Console.WriteLine($"Received TaskItem: Title={taskItem.Title}, Description={taskItem.Description}, IsCompleted={taskItem.IsCompleted}");
+            taskItem.CreationDate = DateTime.UtcNow;
+
             _context.TaskItems.Add(taskItem);
             await _context.SaveChangesAsync();
 
@@ -55,8 +56,20 @@ namespace ProjetoA3.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(taskItem).State = EntityState.Modified;
+            var existingTaskItem = await _context.TaskItems.FindAsync(id);
+            if (existingTaskItem == null)
+            {
+                return NotFound();
+            }
 
+            taskItem.CreationDate = existingTaskItem.CreationDate;
+
+            existingTaskItem.Title = taskItem.Title;
+            existingTaskItem.Description = taskItem.Description;
+            existingTaskItem.IsCompleted = taskItem.IsCompleted;
+            existingTaskItem.DeadDate = taskItem.DeadDate;
+
+            _context.Entry(existingTaskItem).State = EntityState.Modified;
             try
             {
                 await _context.SaveChangesAsync();
@@ -75,6 +88,7 @@ namespace ProjetoA3.Controllers
 
             return NoContent();
         }
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTaskItem(int id)

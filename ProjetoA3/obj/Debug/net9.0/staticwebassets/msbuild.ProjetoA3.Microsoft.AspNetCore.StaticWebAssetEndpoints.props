@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\index.html))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"774"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022I/F052m03uVnIS\u002Bd\u002BPlQ0\u002BIZ29PmOt/iWcPHdDH9S8s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Jun 2024 07:39:52 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"978"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Oe7bHTYjxJRc56/\u002B0rCAvMBtVewkO0X5L4ur9BaC2mY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Jun 2024 18:52:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProjetoA3/script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\script.js))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"2610"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QuydnexB4Q1JbSfOVlduKYxUGxIJJxsVThyXXrzL2oA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Jun 2024 18:14:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"3034"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225bYRJoSQHMZN7YoFJM020s3f69CX9K9WWd5V044Ik/A=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Jun 2024 18:53:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProjetoA3/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\styles.css))</AssetFile>
