@@ -1,6 +1,3 @@
-@ProjetoA3_HostAddress = http://localhost:5179
-
-GET {{ProjetoA3_HostAddress}}/weatherforecast/
-Accept: application/json
+@ProjetoA3_HostAddress = http://localhost:5127
 
 ###

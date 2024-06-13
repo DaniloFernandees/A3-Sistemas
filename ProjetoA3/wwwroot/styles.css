@@ -1,26 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-}
-
-h1 {
-    text-align: center;
+    margin: 20px;
 }
 
 form {
     margin-bottom: 20px;
 }
 
-input[type="text"], input[type="checkbox"], button {
-    margin-right: 10px;
-}
-
-#listaTarefas {
-    margin-top: 20px;
-}
-
-.tarefa {
+form input, form textarea {
+    display: block;
     margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form button {
+    padding: 10px 15px;
+}
+
+#taskList li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#taskList h3 {
+    margin: 0;
 }
