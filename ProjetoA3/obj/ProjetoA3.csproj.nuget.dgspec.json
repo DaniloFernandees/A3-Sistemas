@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {}
+    "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {
+    "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+        "projectUniqueName": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
         "projectName": "ProjetoA3",
-        "projectPath": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
-        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marco\\OneDrive\\Documentos\\A3-Sistemas\\ProjetoA3\\obj\\",
+        "projectPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -46,6 +46,14 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0-preview.5.24306.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             }
           },
           "imports": [
