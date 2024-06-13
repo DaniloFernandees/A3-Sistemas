@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZOn20dS/c4ArZT3BIGHRDHxn3XvKyR478/Yd/FetFTQ=",
+  "Hash": "IRu/NckJoCenBSzHlTi6pz9OTWnAxQ2e5MBJQsGiXus=",
   "Source": "ProjetoA3",
   "BasePath": "_content/ProjetoA3",
   "Mode": "Default",
@@ -52,8 +52,8 @@
       "RelatedAsset": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2gx6l68ohz",
-      "Integrity": "LoS1FuT4wdOO/RJotK9yiPv44hPyDYuT0XwdTGJkGOw=",
+      "Fingerprint": "kk55ovczvz",
+      "Integrity": "jOA4nY+3ij/R0oJOQWGfUcJnNuqc0F6nVh7zUuNLHBI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fggj3gxryp",
-      "Integrity": "8TJjwGuqpGK2/S7jsj1EFX/MfFE4ndCOOg6j5Tg/PDU=",
+      "Fingerprint": "ysnngxqtzz",
+      "Integrity": "QuydnexB4Q1JbSfOVlduKYxUGxIJJxsVThyXXrzL2oA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\script.js"
@@ -261,7 +261,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001572327044"
+          "Quality": "0,001443001443"
         }
       ],
       "ResponseHeaders": [
@@ -271,15 +271,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "635"
+          "Value": "692"
         },
         {
           "Name": "ETag",
-          "Value": "\"LoS1FuT4wdOO/RJotK9yiPv44hPyDYuT0XwdTGJkGOw=\""
+          "Value": "\"jOA4nY+3ij/R0oJOQWGfUcJnNuqc0F6nVh7zUuNLHBI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 15:16:50 GMT"
+          "Value": "Thu, 13 Jun 2024 18:14:00 GMT"
         },
         {
           "Name": "Content-Encoding",
@@ -295,7 +295,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"8TJjwGuqpGK2/S7jsj1EFX/MfFE4ndCOOg6j5Tg/PDU=\""
+          "Value": "W/\"QuydnexB4Q1JbSfOVlduKYxUGxIJJxsVThyXXrzL2oA=\""
         }
       ],
       "EndpointProperties": []
@@ -311,7 +311,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2435"
+          "Value": "2610"
         },
         {
           "Name": "Content-Type",
@@ -319,11 +319,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8TJjwGuqpGK2/S7jsj1EFX/MfFE4ndCOOg6j5Tg/PDU=\""
+          "Value": "\"QuydnexB4Q1JbSfOVlduKYxUGxIJJxsVThyXXrzL2oA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 15:16:50 GMT"
+          "Value": "Thu, 13 Jun 2024 18:14:00 GMT"
         }
       ],
       "EndpointProperties": []
@@ -339,7 +339,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "635"
+          "Value": "692"
         },
         {
           "Name": "Content-Type",
@@ -347,11 +347,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LoS1FuT4wdOO/RJotK9yiPv44hPyDYuT0XwdTGJkGOw=\""
+          "Value": "\"jOA4nY+3ij/R0oJOQWGfUcJnNuqc0F6nVh7zUuNLHBI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 15:16:50 GMT"
+          "Value": "Thu, 13 Jun 2024 18:14:00 GMT"
         },
         {
           "Name": "Content-Encoding",

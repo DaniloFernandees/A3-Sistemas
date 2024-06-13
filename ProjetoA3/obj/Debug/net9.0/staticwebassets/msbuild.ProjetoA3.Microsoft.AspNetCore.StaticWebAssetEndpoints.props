@@ -10,7 +10,7 @@
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\script.js))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"2435"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00228TJjwGuqpGK2/S7jsj1EFX/MfFE4ndCOOg6j5Tg/PDU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Jun 2024 15:16:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"2610"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QuydnexB4Q1JbSfOVlduKYxUGxIJJxsVThyXXrzL2oA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Jun 2024 18:14:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProjetoA3/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\styles.css))</AssetFile>

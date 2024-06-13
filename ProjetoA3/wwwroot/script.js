@@ -4,13 +4,14 @@ $(document).ready(function() {
     $('#taskForm').on('submit', function(event) {
         event.preventDefault();
         const task = {
-            id: $('#taskId').val(),
             title: $('#title').val(),
             description: $('#description').val(),
             isCompleted: false
         };
 
-        if (task.id) {
+        const taskId = $('#taskId').val();
+        if (taskId) {
+            task.id = taskId;
             updateTask(task);
         } else {
             createTask(task);
@@ -20,7 +21,6 @@ $(document).ready(function() {
     function loadTasks() {
         $.getJSON('https://localhost:7047/api/tasks', function(tasks) {
             $('#taskList').empty();
-            console.log(tasks);
             tasks.forEach(function(task) {
                 $('#taskList').append(`
                     <li>
@@ -66,7 +66,6 @@ $(document).ready(function() {
 
     window.editTask = function(id) {
         $.getJSON(`https://localhost:7047/api/tasks/${id}`, function(task) {
-            console.log(task);
             $('#taskId').val(task.id);
             $('#title').val(task.title);
             $('#description').val(task.description);
