@@ -3,7 +3,7 @@
 
 # Gerenciador de Tarefas
 
-O projeto foi constituido em criar um gerenciador de tarefas, onde existe um CRUD para fazer as principais atividades do sistema. O código é composto pela linguagem C#, lingaguem de marcação HTML e CSS e um banco de dados SQLite.
+O projeto foi constituído em criar um gerenciador de tarefas, onde existe um CRUD para fazer as principais atividades do sistema. O código é composto pela linguagem C# e JavaScript, lingaguem de marcação HTML e CSS e um banco de dados SQLite.
 
 # Principais Funções
 
