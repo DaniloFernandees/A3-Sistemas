@@ -4,19 +4,19 @@
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\index.html))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"978"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Oe7bHTYjxJRc56/\u002B0rCAvMBtVewkO0X5L4ur9BaC2mY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Jun 2024 18:52:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1190"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022zD0qIgYwPkyov4iX0xKMQus0f\u002BVpRfnOwvne5f3X8BA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Jun 2024 21:00:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProjetoA3/script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\script.js))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"3034"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225bYRJoSQHMZN7YoFJM020s3f69CX9K9WWd5V044Ik/A=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Jun 2024 18:53:54 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"4245"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00222fX5OV9p9lgsikk1cYoi65I2g9aIHyg48y3BlzdJOSU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Jun 2024 19:45:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProjetoA3/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\styles.css))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"399"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fGrzpLNFF0Us8Xl6Lleo3Y\u002BLXj3rZJ/XSLX56nlbBas=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Jun 2024 07:39:52 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"399"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fGrzpLNFF0Us8Xl6Lleo3Y\u002BLXj3rZJ/XSLX56nlbBas=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Jun 2024 19:45:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

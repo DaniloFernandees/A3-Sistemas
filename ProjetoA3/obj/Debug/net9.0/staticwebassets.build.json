@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PLRU3l+BKEieBv9JmKOcr1eGOxMaKDlEpx58iaESWnY=",
+  "Hash": "a8ayQn+nUECBiJNup76Pnc0syo47umPaFStlI03Itxw=",
   "Source": "ProjetoA3",
   "BasePath": "_content/ProjetoA3",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ProjetoA3\\wwwroot",
       "Source": "ProjetoA3",
-      "ContentRoot": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
       "BasePath": "_content/ProjetoA3",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
+      "Identity": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "index.html.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lezx75jst6",
-      "Integrity": "gwO9oJD73ovxOJG9E9+KTLFM3NdWncyLiFAmE8iIJO0=",
+      "Fingerprint": "wpd96x7tdz",
+      "Integrity": "TLhQOxDCCIvUEdOpy4hON8X3V566aU0M8S2a8yBqI+o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\g67nfpbjgt.gz",
+      "Identity": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\g67nfpbjgt.gz",
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "script.js.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js",
+      "RelatedAsset": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "i67sd9vfxi",
-      "Integrity": "pkvt87uS4f/qa9sbOjRxFmfCU7r489IpQeHTalSoud0=",
+      "Fingerprint": "ubcxb5esn9",
+      "Integrity": "qrsDnhC07OBB4SXTM4Qi4iUXwOs8gqfhAD+vyu4ijOY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js"
+      "OriginalItemSpec": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js"
     },
     {
-      "Identity": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
+      "Identity": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "styles.css.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+      "RelatedAsset": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "2sugrg9hw7",
       "Integrity": "0grgfjeGW08nw4oYwC6QuWN0Gb+9LdOah4QqWV8lEcM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css"
+      "OriginalItemSpec": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css"
     },
     {
-      "Identity": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -94,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "981sp4rget",
-      "Integrity": "Oe7bHTYjxJRc56/+0rCAvMBtVewkO0X5L4ur9BaC2mY=",
+      "Fingerprint": "whzaws66kn",
+      "Integrity": "zD0qIgYwPkyov4iX0xKMQus0f+VpRfnOwvne5f3X8BA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js",
+      "Identity": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js",
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "script.js",
       "AssetKind": "All",
@@ -115,17 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dy9u9chrxh",
-      "Integrity": "5bYRJoSQHMZN7YoFJM020s3f69CX9K9WWd5V044Ik/A=",
+      "Fingerprint": "591qpx90wg",
+      "Integrity": "2fX5OV9p9lgsikk1cYoi65I2g9aIHyg48y3BlzdJOSU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\script.js"
     },
     {
-      "Identity": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+      "Identity": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
       "SourceId": "ProjetoA3",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\",
       "BasePath": "_content/ProjetoA3",
       "RelativePath": "styles.css",
       "AssetKind": "All",
@@ -146,12 +146,12 @@
   "Endpoints": [
     {
       "Route": "index.html",
-      "AssetFile": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
+      "AssetFile": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,002092050209"
+          "Quality": "0,001851851852"
         }
       ],
       "ResponseHeaders": [
@@ -161,15 +161,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "477"
+          "Value": "539"
         },
         {
           "Name": "ETag",
-          "Value": "\"gwO9oJD73ovxOJG9E9+KTLFM3NdWncyLiFAmE8iIJO0=\""
+          "Value": "\"TLhQOxDCCIvUEdOpy4hON8X3V566aU0M8S2a8yBqI+o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 18:52:25 GMT"
+          "Value": "Wed, 19 Jun 2024 21:00:12 GMT"
         },
         {
           "Name": "Content-Encoding",
@@ -185,14 +185,14 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Oe7bHTYjxJRc56/+0rCAvMBtVewkO0X5L4ur9BaC2mY=\""
+          "Value": "W/\"zD0qIgYwPkyov4iX0xKMQus0f+VpRfnOwvne5f3X8BA=\""
         }
       ],
       "EndpointProperties": []
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -201,7 +201,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "978"
+          "Value": "1190"
         },
         {
           "Name": "Content-Type",
@@ -209,18 +209,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Oe7bHTYjxJRc56/+0rCAvMBtVewkO0X5L4ur9BaC2mY=\""
+          "Value": "\"zD0qIgYwPkyov4iX0xKMQus0f+VpRfnOwvne5f3X8BA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 18:52:25 GMT"
+          "Value": "Wed, 19 Jun 2024 21:00:12 GMT"
         }
       ],
       "EndpointProperties": []
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
+      "AssetFile": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\dicwlzl109.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -229,7 +229,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "477"
+          "Value": "539"
         },
         {
           "Name": "Content-Type",
@@ -237,11 +237,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gwO9oJD73ovxOJG9E9+KTLFM3NdWncyLiFAmE8iIJO0=\""
+          "Value": "\"TLhQOxDCCIvUEdOpy4hON8X3V566aU0M8S2a8yBqI+o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 18:52:25 GMT"
+          "Value": "Wed, 19 Jun 2024 21:00:12 GMT"
         },
         {
           "Name": "Content-Encoding",
@@ -256,12 +256,12 @@
     },
     {
       "Route": "script.js",
-      "AssetFile": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\g67nfpbjgt.gz",
+      "AssetFile": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\g67nfpbjgt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0,001298701299"
+          "Quality": "0,001010101010"
         }
       ],
       "ResponseHeaders": [
@@ -271,15 +271,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "769"
+          "Value": "989"
         },
         {
           "Name": "ETag",
-          "Value": "\"pkvt87uS4f/qa9sbOjRxFmfCU7r489IpQeHTalSoud0=\""
+          "Value": "\"qrsDnhC07OBB4SXTM4Qi4iUXwOs8gqfhAD+vyu4ijOY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 18:53:54 GMT"
+          "Value": "Wed, 19 Jun 2024 19:45:03 GMT"
         },
         {
           "Name": "Content-Encoding",
@@ -295,14 +295,14 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5bYRJoSQHMZN7YoFJM020s3f69CX9K9WWd5V044Ik/A=\""
+          "Value": "W/\"2fX5OV9p9lgsikk1cYoi65I2g9aIHyg48y3BlzdJOSU=\""
         }
       ],
       "EndpointProperties": []
     },
     {
       "Route": "script.js",
-      "AssetFile": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js",
+      "AssetFile": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -311,7 +311,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3034"
+          "Value": "4245"
         },
         {
           "Name": "Content-Type",
@@ -319,18 +319,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5bYRJoSQHMZN7YoFJM020s3f69CX9K9WWd5V044Ik/A=\""
+          "Value": "\"2fX5OV9p9lgsikk1cYoi65I2g9aIHyg48y3BlzdJOSU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 18:53:54 GMT"
+          "Value": "Wed, 19 Jun 2024 19:45:03 GMT"
         }
       ],
       "EndpointProperties": []
     },
     {
       "Route": "script.js.gz",
-      "AssetFile": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\g67nfpbjgt.gz",
+      "AssetFile": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\g67nfpbjgt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -339,7 +339,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "769"
+          "Value": "989"
         },
         {
           "Name": "Content-Type",
@@ -347,11 +347,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pkvt87uS4f/qa9sbOjRxFmfCU7r489IpQeHTalSoud0=\""
+          "Value": "\"qrsDnhC07OBB4SXTM4Qi4iUXwOs8gqfhAD+vyu4ijOY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 18:53:54 GMT"
+          "Value": "Wed, 19 Jun 2024 19:45:03 GMT"
         },
         {
           "Name": "Content-Encoding",
@@ -366,7 +366,7 @@
     },
     {
       "Route": "styles.css",
-      "AssetFile": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
+      "AssetFile": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -389,7 +389,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 07:39:52 GMT"
+          "Value": "Wed, 19 Jun 2024 19:45:03 GMT"
         },
         {
           "Name": "Content-Encoding",
@@ -412,7 +412,7 @@
     },
     {
       "Route": "styles.css",
-      "AssetFile": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
+      "AssetFile": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\wwwroot\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -433,14 +433,14 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 07:39:52 GMT"
+          "Value": "Wed, 19 Jun 2024 19:45:03 GMT"
         }
       ],
       "EndpointProperties": []
     },
     {
       "Route": "styles.css.gz",
-      "AssetFile": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
+      "AssetFile": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\Debug\\net9.0\\compressed\\y73be2ba4z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -461,7 +461,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Jun 2024 07:39:52 GMT"
+          "Value": "Wed, 19 Jun 2024 19:45:03 GMT"
         },
         {
           "Name": "Content-Encoding",

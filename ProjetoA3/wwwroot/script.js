@@ -56,8 +56,8 @@ $(document).ready(function () {
                         <p>${task.responsible}</p>
                         <p>${formattedCreationDate}</p>
                         <p>${formattedDeadDate}</p>
-                        <button onclick="editTask(${task.id})">Edit</button>
-                        <button onclick="deleteTask(${task.id})">Delete</button>
+                        <button onclick="editTask(${task.id})">Editar</button>
+                        <button onclick="deleteTask(${task.id})">Apagar</button>
                     </li>
                 `);
                 }

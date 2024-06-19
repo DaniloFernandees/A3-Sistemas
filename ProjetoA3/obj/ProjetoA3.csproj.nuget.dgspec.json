@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {}
+    "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {}
   },
   "projects": {
-    "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {
+    "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
         "projectName": "ProjetoA3",
-        "projectPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\USUARIO\\Documents\\GitHub\\A3-Sistemas\\ProjetoA3\\obj\\",
+        "projectPath": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\ProjetoA3.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucas\\Documents\\Estudos\\Unp-Aulas\\A3-Sistemas\\ProjetoA3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
