@@ -85,7 +85,7 @@ namespace ProjetoA3.Controllers
             taskItem.CreationDate = existingTaskItem.CreationDate;
             existingTaskItem.Title = taskItem.Title;
             existingTaskItem.Description = taskItem.Description;
-            existingTaskItem.Responsible = taskItem.Responsible;            
+            existingTaskItem.Responsible = taskItem.Responsible;
             existingTaskItem.IsCompleted = taskItem.IsCompleted;
             existingTaskItem.DeadDate = taskItem.DeadDate;
 
@@ -135,6 +135,28 @@ namespace ProjetoA3.Controllers
             }
         }
 
+        [HttpPut("complete/{id}")]
+        public async Task<IActionResult> CompleteTaskItem(int id)
+        {
+            try
+            {
+                var taskItem = await _context.TaskItems.FindAsync(id);
+                if (taskItem == null)
+                {
+                    return NotFound();
+                }
+
+                taskItem.IsCompleted = true;
+                _context.Entry(taskItem).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro interno do servidor: {ex.Message}");
+            }
+        }
         private bool TaskItemExists(int id)
         {
             return _context.TaskItems.Any(e => e.Id == id);
