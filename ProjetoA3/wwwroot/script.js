@@ -1,5 +1,4 @@
 let taskId = null;
-
 $(document).ready(function () {
     loadTasks();
 
@@ -42,25 +41,39 @@ $(document).ready(function () {
                 if (task.isCompleted) {
                     $('#taskListConc').append(`
                         <div class="card">
-                            <span>${task.id}</span>
-                            <h3>${task.title}</h3>
+                            <span>#${task.id}</span>
+                            <div class="card-header">
+                                <div class="badge">
+                                    <p>${task.responsible}</p>
+                                </div>
+                            </div>
+                            <h5>${task.title}</h5>
                             <p>${task.description}</p>
-                            <p>${task.responsible}</p>
-                            <p>${formattedCreationDate}</p>
-                            <p>${formattedDeadDate}</p>
+                            <div class="date-create"><ion-icon name="document"></ion-icon> ${formattedCreationDate}</div>
+                            ${task.deadDate ? `                                
+                                <div class="date-dead"><ion-icon name="alarm"></ion-icon> `+ formattedDeadDate + `</div>  
+                            `: ``}
                         </div>
                         `);
                 } else {
                     $('#taskList').append(`
                         <div class="card">
-                            <span>${task.id}</span>
-                            <h3>${task.title}</h3>
+                            <span>#${task.id}</span>
+                            <div class="card-header">
+                                <div class="badge">
+                                    <p>${task.responsible}</p>
+                                </div>
+                                <div class="card-options">
+                                    <button class="option-edit" onclick="editTask(${task.id})"><ion-icon name="create"></ion-icon></button>
+                                    <button class="option-delete" onclick="deleteTask(${task.id})"><ion-icon name="trash"></ion-icon></button>
+                                </div>
+                            </div>
+                            <h5>${task.title}</h5>
                             <p>${task.description}</p>
-                            <p>${task.responsible}</p>
-                            <p>${formattedCreationDate}</p>
-                            <p>${formattedDeadDate}</p>
-                            <button onclick="editTask(${task.id})">Editar</button>
-                            <button onclick="deleteTask(${task.id})">Apagar</button>
+                            <div class="date-create"><ion-icon name="document"></ion-icon> ${formattedCreationDate}</div>
+                            ${task.deadDate ? `                                
+                                <div class="date-dead"><ion-icon name="alarm"></ion-icon> `+ formattedDeadDate + `</div>  
+                            `: ``}
                         </div>
                     `);
                 }
@@ -119,7 +132,8 @@ $(document).ready(function () {
             $('#title').val(task.title);
             $('#description').val(task.description);
             $('#responsible').val(task.responsible);
-            $('#deadDate').val(task.deadDate);
+            const formattedDate = new Date(task.deadDate).toISOString().split('T')[0];
+            $('#deadDate').val(formattedDate);
 
             $('#isCompletedContainer').html(`
                 <label for="isCompleted">Concluída:</label>
@@ -134,19 +148,34 @@ $(document).ready(function () {
     }
 
     window.deleteTask = function (id) {
-        $.ajax({
-            url: `https://localhost:7047/api/tasks/${id}`,
-            type: 'DELETE',
-            success: function () {
-                loadTasks();
-                toastr.success('Tarefa apagada com sucesso!', 'Sucesso');
-            },
-            error: function (xhr, status, error) {
-                console.error('Erro ao apagar tarefa:', status, error);
-                toastr.error('Erro ao apagar tarefa: ' + error, 'Erro');
+        Swal.fire({
+            title: 'Você tem certeza que deseja apagar essa tarefa?',
+            text: "Não poderá ser desfeito",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Sim, apagar!',
+            cancelButtonText: 'Cancelar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: `https://localhost:7047/api/tasks/${id}`,
+                    type: 'DELETE',
+                    success: function () {
+                        loadTasks();
+
+                        toastr.success('Tarefa apagada com sucesso!', 'Sucesso');
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Erro ao apagar tarefa:', status, error);
+                        toastr.error('Erro ao apagar tarefa: ' + error, 'Erro');
+                    }
+                });
             }
         });
-    }
+    };
+
 
     function openModal(mode = "new") {
         $('#taskModal').show();

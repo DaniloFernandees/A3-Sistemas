@@ -6,7 +6,9 @@
     --bg: #ebf0f7;
     --header: #fbf4f6;
     --text: #2e2e2f;
-    --white: #ffffff;
+    --white: #f8f8f8;
+    --yellow: #f1c40f;
+    --red: #e74c3c;
     --light-grey: #c4cad3;
     --tag-1: #ceecfd;
     --tag-1-text: #2e87ba;
@@ -95,7 +97,7 @@ label {
 }
 
 input::placeholder {
-    color: #f8f8f8;
+    color: var(--white);
 }
 
 ul,
@@ -118,14 +120,14 @@ em {
 }
 
 ::-webkit-scrollbar {
-    background-color: #13121a;
+    background-color: transparent;
     width: 2px;
     height: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    background-color: #D8253E;
+    background-color: var(--purple);
 }
 
 ::selection {
@@ -156,30 +158,178 @@ em {
 .button-add-task {
     width: 40px;
     height: 40px;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px dashed var(--text);
+    font-family: "Montserrat", sans-serif;
+    color: var(--text);
+    outline: none;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    transition: .2s ease-in-out;
+    transition: .1s ease-in-out;
     overflow: hidden;
 }
 
 .button-add-task ion-icon {
     vertical-align: middle;
+    font-size: 20px;
 }
 
 .button-add-task span {
+    font-size: 14px;
     display: none;
+    font-weight: 500;
     margin-left: 5px;
-    transition: .2s ease-in-out;
 }
 
 .button-add-task:hover {
     width: 120px;
+    background-color: var(--purple);
+    color: var(--white);
+    border-color: var(--purple);
 }
 
 .button-add-task:hover span {
     display: block;
+}
+
+/* FEED */
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.tasks>div {
+    width: calc(50% - 20px);
+    margin: 0 10px;
+}
+
+.tasks h4 {
+    font-size: 22px;
+    margin: 0 0 10px 10px;
+
+}
+
+/* CARD */
+
+.card {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 8px;
+    min-height: 120px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.card h5 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 6px 0;
+}
+
+.card span {
+    opacity: .5;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px 0;
+}
+
+.badge {
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.card-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-options button {
+    margin: 0 4px;
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    border: none;
+    outline: none;
+    transition: .2s ease-in-out;
+}
+
+.option-edit {
+    background-color: var(--yellow);
+    color: var(--text);
+}
+
+.option-delete {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.option-edit:hover,
+.option-delete:hover {
+    transform: scale(1.08);
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.option-edit:active,
+.option-delete:active {
+    opacity: .7;
+    transform: scale(0.98);
+}
+
+.card-options button ion-icon {
+    font-size: 16px;
+}
+
+.date-create {
+    opacity: .5;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-create ion-icon,
+.date-dead ion-icon {
+    vertical-align: middle;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+.date-dead ion-icon {
+    font-size: 20px;
+}
+
+.date-dead {
+    margin-top: 6px;
+    opacity: .6;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 
 form {
@@ -208,21 +358,10 @@ form button {
 
 
 
-.card {
-    background-color: var(--white);
-    padding: 1rem;
-    border-radius: 8px;
-    width: 100%;
-    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
-    margin-bottom: 1rem;
-    border: 3px dashed transparent;
-
-}
-
-.card:hover {
+/* .card:hover {
     box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
     border-color: rgba(162, 179, 207, .2) !important;
-}
+} */
 
 /* MODAL */
 
