@@ -342,23 +342,6 @@ em {
     align-items: center;
 }
 
-form {
-    margin-bottom: 20px;
-}
-
-form input,
-form textarea {
-    display: block;
-    margin-bottom: 10px;
-    padding: 8px;
-    width: 100%;
-    max-width: 400px;
-}
-
-form button {
-    padding: 10px 15px;
-}
-
 /* MODAL */
 #taskModal {
     display: none;
@@ -388,64 +371,79 @@ form button {
     background-color: var(--white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
-    padding: 20px;
+    padding: 10px;
     width: 455px;
     max-width: 90%;
     z-index: 999;
     overflow: hidden;
 }
 
+.modal .required {
+    color: var(--red);
+    margin-left: 4px;
+}
+
 .modal-header {
     background-color: var(--purple);
     color: var(--white);
     padding: 10px;
+    margin-bottom: 10px;
     text-align: center;
+    border-radius: 12px 12px 6px 6px;
 }
 
-.modal-header h3 {
-    margin: 0;
+.modal-body {
+    width: 100%;
 }
 
 .modal-body label {
+    cursor: default;
     display: block;
-    margin-bottom: 10px;
+    font-size: 14px;
+    margin-bottom: 2px;
 }
 
 .modal-body input[type="text"],
 .modal-body textarea,
 .modal-body input[type="date"] {
     font-family: "Montserrat", sans-serif;
-    width: 100%;
+    width: calc(100% - 18px);
     padding: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     outline: none;
 }
 
 .modal-footer {
-    padding: 10px;
-    text-align: right;
-    background-color: var(--white);
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .modal-footer button {
-    margin-left: 10px;
-    padding: 8px 20px;
+    padding: 8px;
+    width: 100px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.modal-footer button:first-child {
+    margin-right: 10px;
 }
 
 .modal-footer button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
+    background-color: var(--purple);
+    color: var(--white);
+    border: 1px solid var(--purple);
 }
 
 .modal-footer button[type="button"] {
     background-color: #ffffff;
     color: #5c5c5c;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
 }
 
 .modal-footer button[type="submit"]:hover,
