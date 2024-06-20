@@ -142,10 +142,6 @@ em {
     display: none;
 }
 
-.modal {
-    /* display: none; */
-}
-
 /* HEADER */
 
 .header {
@@ -373,13 +369,16 @@ form button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 400px;
+    border-radius: 12px;
+    width: 455px;
     max-width: 90%;
     z-index: 1000;
+    overflow:hidden
 }
-
 .modal-header {
     background-color: #007bff;
     color: #fff;
@@ -402,7 +401,8 @@ form button {
 
 .modal-body input[type="text"],
 .modal-body textarea,
-.modal-body input[type="datetime-local"] {
+.modal-body input[type="date"] {
+    font-family: "Montserrat", sans-serif;
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
@@ -427,6 +427,11 @@ form button {
 .modal-footer button[type="submit"] {
     background-color: #007bff;
     color: #fff;
+}
+.modal-footer button[type="button"] {
+    background-color: #ffffff;
+    color: #5c5c5c;
+    border: 2px solid #ccc;
 }
 
 .modal-footer button[type="submit"]:hover,
