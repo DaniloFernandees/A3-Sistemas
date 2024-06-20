@@ -40,10 +40,8 @@ pre {
 }
 
 body {
-    overflow-x: hidden;
     background-color: var(--bg);
     color: var(--text);
-    overflow-y: hidden;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -143,7 +141,7 @@ em {
 }
 
 .modal {
-    display: none;
+    /* display: none; */
 }
 
 /* HEADER */
@@ -224,4 +222,125 @@ form button {
 .card:hover {
     box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
     border-color: rgba(162, 179, 207, .2) !important;
+}
+
+/* MODAL */
+
+/* Estilo para o modal */
+.modal {
+    display: none;
+    /* Inicialmente oculto */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+    z-index: 1000;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal-header h3 {
+    margin: 0;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-body label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modal-body input[type="text"],
+.modal-body textarea,
+.modal-body input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modal-footer {
+    padding: 10px;
+    text-align: right;
+    background-color: #f1f1f1;
+}
+
+.modal-footer button {
+    margin-left: 10px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-footer button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.modal-footer button[type="submit"]:hover,
+.modal-footer button[type="button"]:hover {
+    opacity: 0.8;
+}
+
+/* NOTIFY */
+
+#notify-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.notify {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    opacity: 0;
+    animation: fadein 0.5s forwards, fadeout 0.5s 4.5s forwards;
+    /* Desaparece após 5 segundos */
+}
+
+.notify-success {
+    background-color: #4CAF50;
+}
+
+.notify-error {
+    background-color: #f44336;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }

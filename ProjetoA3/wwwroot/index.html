@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProjetoA3 - Gerenciador de Tarefas</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/min/moment.min.js"></script>
-    <script src="script.js" defer></script>
+    <script defer src="script.js"></script>
 </head>
 
 <body>
-    <div class="modal">
+    <div id="notify-container"></div>
+    <div class="modal" id="taskModal">
         <form id="taskForm">
             <div class="modal-header">
                 <h3 id="modal-header-title">Nova Tarefa</h3>
             </div>
             <div class="modal-body">
-                <input type="hidden" id="taskId">
                 <label for="title">Título:</label>
                 <input type="text" id="title" required>
                 <label for="description">Descrição:</label>
