@@ -38,18 +38,18 @@ $(document).ready(function () {
 
                 if (task.isCompleted) {
                     $('#taskListConc').append(`
-                    <li>
+                    <div class="card">
                         <span>${task.id}</span>
                         <h3>${task.title}</h3>
                         <p>${task.description}</p>
                         <p>${task.responsible}</p>
                         <p>${formattedCreationDate}</p>
                         <p>${formattedDeadDate}</p>
-                    </li>
+                    </div>
                     `);
                 } else {
                     $('#taskList').append(`
-                    <li>
+                    <div class="card">
                         <span>${task.id}</span>
                         <h3>${task.title}</h3>
                         <p>${task.description}</p>
@@ -58,7 +58,7 @@ $(document).ready(function () {
                         <p>${formattedDeadDate}</p>
                         <button onclick="editTask(${task.id})">Editar</button>
                         <button onclick="deleteTask(${task.id})">Apagar</button>
-                    </li>
+                    </div>
                 `);
                 }
             });
