@@ -9,14 +9,9 @@ namespace ProjetoA3.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TasksController : ControllerBase
+    public class TasksController(AppDbContext context) : ControllerBase
     {
-        private readonly AppDbContext _context;
-
-        public TasksController(AppDbContext context)
-        {
-            _context = context;
-        }
+        private readonly AppDbContext _context = context;
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TaskItem>>> GetTasks()
