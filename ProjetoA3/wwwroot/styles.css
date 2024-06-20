@@ -9,6 +9,7 @@
     --white: #f8f8f8;
     --yellow: #f1c40f;
     --red: #e74c3c;
+    --green: #2ecc71;
     --light-grey: #c4cad3;
     --tag-1: #ceecfd;
     --tag-1-text: #2e87ba;
@@ -199,8 +200,13 @@ em {
 }
 
 .tasks>div {
-    width: calc(50% - 20px);
+    width: calc(50% - 24px);
     margin: 0 10px;
+}
+
+#taskListConc,
+#taskList {
+    padding-right: 4px;
 }
 
 .tasks h4 {
@@ -241,6 +247,7 @@ em {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 36px;
     margin: 6px 0;
 }
 
@@ -279,14 +286,21 @@ em {
     color: var(--white);
 }
 
+.option-completed {
+    background-color: var(--green);
+    color: var(--white);
+}
+
 .option-edit:hover,
-.option-delete:hover {
+.option-delete:hover,
+.option-completed:hover {
     transform: scale(1.08);
     box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
 }
 
 .option-edit:active,
-.option-delete:active {
+.option-delete:active,
+.option-completed:active {
     opacity: .7;
     transform: scale(0.98);
 }
@@ -322,7 +336,7 @@ em {
 .date-dead {
     margin-top: 6px;
     opacity: .6;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -345,53 +359,51 @@ form button {
     padding: 10px 15px;
 }
 
-#taskList li {
-    list-style: none;
-    margin-bottom: 20px;
+/* MODAL */
+#taskModal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-
-
-/* .card:hover {
-    box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
-    border-color: rgba(162, 179, 207, .2) !important;
-} */
-
-/* MODAL */
-
-/* Estilo para o modal */
-.modal {
-    display: none;
-    /* Inicialmente oculto */
+.pelicula-modal {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99;
+
+}
+
+.modal {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    background-color: #fff;
+    background-color: var(--white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
+    padding: 20px;
     width: 455px;
     max-width: 90%;
-    z-index: 1000;
-    overflow:hidden
+    z-index: 999;
+    overflow: hidden;
 }
+
 .modal-header {
-    background-color: #007bff;
-    color: #fff;
+    background-color: var(--purple);
+    color: var(--white);
     padding: 10px;
     text-align: center;
 }
 
 .modal-header h3 {
     margin: 0;
-}
-
-.modal-body {
-    padding: 20px;
 }
 
 .modal-body label {
@@ -408,12 +420,13 @@ form button {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    outline: none;
 }
 
 .modal-footer {
     padding: 10px;
     text-align: right;
-    background-color: #f1f1f1;
+    background-color: var(--white);
 }
 
 .modal-footer button {
@@ -428,6 +441,7 @@ form button {
     background-color: #007bff;
     color: #fff;
 }
+
 .modal-footer button[type="button"] {
     background-color: #ffffff;
     color: #5c5c5c;
@@ -437,54 +451,4 @@ form button {
 .modal-footer button[type="submit"]:hover,
 .modal-footer button[type="button"]:hover {
     opacity: 0.8;
-}
-
-/* NOTIFY */
-
-#notify-container {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-}
-
-.notify {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #fff;
-    opacity: 0;
-    animation: fadein 0.5s forwards, fadeout 0.5s 4.5s forwards;
-    /* Desaparece após 5 segundos */
-}
-
-.notify-success {
-    background-color: #4CAF50;
-}
-
-.notify-error {
-    background-color: #f44336;
-}
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeout {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 0;
-    }
 }

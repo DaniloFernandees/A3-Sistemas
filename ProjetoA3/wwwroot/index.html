@@ -13,35 +13,39 @@
     <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/min/moment.min.js"></script>
     <script defer src="script.js"></script>
 </head>
 
 <body>
-    <div id="notify-container"></div>
-    <div class="modal" id="taskModal">
-        <form id="taskForm">
-            <div class="modal-header">
-                <h3 id="modal-header-title">Nova Tarefa</h3>
-            </div>
-            <div class="modal-body">
-                <label for="title">Título:</label>
-                <input type="text" id="title" required>
-                <label for="description">Descrição:</label>
-                <textarea id="description" required></textarea>
-                <label for="responsible">Responsável:</label>
-                <input type="text" id="responsible" required>
-                <label for="deadDate">Prazo Final:</label>
-                <input type="date" id="deadDate">
-                <div id="isCompletedContainer"></div>
-            </div>
-            <div class="modal-footer">
-                <button type="submit">Salvar</button>
-                <button type="button" id="cancel-modal">Cancelar</button>
-            </div>
-        </form>
+    <div class="container-modal" id="taskModal">
+        <div class="pelicula-modal"></div>
+        <div class="modal">
+            <form id="taskForm">
+                <div class="modal-header">
+                    <h3 id="modal-header-title">Nova Tarefa</h3>
+                </div>
+                <div class="modal-body">
+                    <label for="title">Título:</label>
+                    <input type="text" id="title" required>
+                    <label for="description">Descrição:</label>
+                    <textarea id="description" required></textarea>
+                    <label for="responsible">Responsável:</label>
+                    <input type="text" id="responsible" required>
+                    <label for="deadDate">Prazo Final:</label>
+                    <input type="date" id="deadDate">
+                    <div id="isCompletedContainer"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit">Salvar</button>
+                    <button type="button" id="cancel-modal">Cancelar</button>
+                </div>
+            </form>
+        </div>
     </div>
+
     <header class="header">
         <h2>Gerenciador de Tarefas</h2>
         <button class="button-add-task" id="open-modal">
