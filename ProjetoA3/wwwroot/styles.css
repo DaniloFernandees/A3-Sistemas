@@ -3,11 +3,16 @@ body {
     margin: 20px;
 }
 
+.modal {
+    display: none;
+}
+
 form {
     margin-bottom: 20px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     display: block;
     margin-bottom: 10px;
     padding: 8px;
