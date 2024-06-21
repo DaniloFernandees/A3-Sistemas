@@ -130,7 +130,6 @@ $(document).ready(function () {
         });
     }
     window.markCompleted = function (id, isCompleted) {
-        console.log(isCompleted)
         $.ajax({
             url: `https://localhost:7047/api/tasks/complete/${id}`,
             type: "PUT",
