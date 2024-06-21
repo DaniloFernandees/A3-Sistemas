@@ -136,8 +136,9 @@ namespace ProjetoA3.Controllers
         }
 
         [HttpPut("complete/{id}")]
-        public async Task<IActionResult> CompleteTaskItem(int id)
+        public async Task<IActionResult> CompleteTaskItem(int id, [FromBody] bool isCompleted)
         {
+            Console.WriteLine($"ID: {id}, IsCompleted: {isCompleted}");
             try
             {
                 var taskItem = await _context.TaskItems.FindAsync(id);
@@ -146,7 +147,7 @@ namespace ProjetoA3.Controllers
                     return NotFound();
                 }
 
-                taskItem.IsCompleted = true;
+                taskItem.IsCompleted = isCompleted;
                 _context.Entry(taskItem).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
 

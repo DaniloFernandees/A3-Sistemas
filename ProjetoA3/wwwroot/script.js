@@ -46,6 +46,9 @@ $(document).ready(function () {
                                 <div class="badge">
                                     <p>${task.responsible}</p>
                                 </div>
+                                <div class="card-options">                                
+                                    <button class="option-return" onclick="markCompleted(${task.id}, false)"><ion-icon name="reload-outline"></ion-icon></button>
+                                </div>
                             </div>
                             <h5>${task.title}</h5>
                             <p>${task.description}</p>
@@ -64,7 +67,7 @@ $(document).ready(function () {
                                     <p>${task.responsible}</p>
                                 </div>
                                 <div class="card-options">                                
-                                    <button class="option-completed" onclick="markCompleted(${task.id})"><ion-icon name="checkmark-outline"></ion-icon></button>
+                                    <button class="option-completed" onclick="markCompleted(${task.id}, true)"><ion-icon name="checkmark-outline"></ion-icon></button>
                                     <button class="option-edit" onclick="editTask(${task.id})"><ion-icon name="create"></ion-icon></button>
                                     <button class="option-delete" onclick="deleteTask(${task.id})"><ion-icon name="trash"></ion-icon></button>
                                 </div>
@@ -126,17 +129,20 @@ $(document).ready(function () {
             }
         });
     }
-    window.markCompleted = function (id) {
+    window.markCompleted = function (id, isCompleted) {
+        console.log(isCompleted)
         $.ajax({
             url: `https://localhost:7047/api/tasks/complete/${id}`,
             type: "PUT",
+            contentType: "application/json",
+            data: JSON.stringify(isCompleted),
             success: function () {
                 loadTasks();
-                toastr.success("Tarefa concluída com sucesso!", "Sucesso");
+                toastr.success(`Tarefa ${isCompleted ? 'concluída' : 'retornada'} com sucesso!`, "Sucesso");
             },
             error: function (xhr, status, error) {
-                console.error("Erro ao concluir tarefa:", status, error);
-                toastr.error("Erro ao concluir tarefa: " + error, "Erro");
+                console.error(`Erro ao ${isCompleted ? 'concluir' : 'retornar'} tarefa:`, status, error);
+                toastr.error(`Erro ao ${isCompleted ? 'concluir' : 'retornar'} tarefa:` + error, "Erro");
             }
         });
     }

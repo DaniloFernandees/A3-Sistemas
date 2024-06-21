@@ -165,7 +165,7 @@ em {
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    transition: .1s ease-in-out;
+    transition: .2s ease-in-out;
     overflow: hidden;
 }
 
@@ -267,6 +267,9 @@ em {
 }
 
 .card-options button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 4px;
     width: 36px;
     height: 36px;
@@ -274,6 +277,20 @@ em {
     border: none;
     outline: none;
     transition: .2s ease-in-out;
+}
+
+.card-options button:hover {
+    transform: scale(1.08);
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+
+.card-options button:active {
+    opacity: .7;
+    transform: scale(0.98);
+}
+
+.card-options button ion-icon {
+    font-size: 16px;
 }
 
 .option-edit {
@@ -291,22 +308,9 @@ em {
     color: var(--white);
 }
 
-.option-edit:hover,
-.option-delete:hover,
-.option-completed:hover {
-    transform: scale(1.08);
-    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
-}
-
-.option-edit:active,
-.option-delete:active,
-.option-completed:active {
-    opacity: .7;
-    transform: scale(0.98);
-}
-
-.card-options button ion-icon {
-    font-size: 16px;
+.option-return {
+    background-color: var(--purple);
+    color: var(--white);
 }
 
 .date-create {

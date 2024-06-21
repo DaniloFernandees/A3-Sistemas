@@ -1,3 +1,51 @@
 @ProjetoA3_HostAddress = https://localhost:7047
 
 ###
+GET {{ProjetoA3_HostAddress}}/api/tasks
+
+Accept: application/json
+###
+
+###
+GET {{ProjetoA3_HostAddress}}/api/tasks/15
+
+Accept: application/json
+###
+### 
+POST {{ProjetoA3_HostAddress}}/api/tasks
+
+Content-Type: application/json
+
+{
+    "title": "Nova Tarefa",
+    "description": "Descrição da nova tarefa",
+    "responsible": "João",
+    "isCompleted": false,
+    "creationDate": "2024-06-20T10:00:00Z",
+    "deadDate": "2024-06-30T23:59:59Z"
+}
+###
+
+### 
+PUT {{ProjetoA3_HostAddress}}/api/tasks/1
+
+Content-Type: application/json
+
+{
+    "id": 19,
+    "title": "Título atualizado",
+    "description": "Descrição atualizada",
+    "responsible": "Maria",
+    "isCompleted": true,
+    "creationDate": "2024-06-20T10:00:00Z",
+    "deadDate": "2024-06-30T23:59:59Z"
+}
+###
+
+### 
+DELETE {{ProjetoA3_HostAddress}}/api/tasks/17
+###
+
+### 
+PUT {{ProjetoA3_HostAddress}}/api/tasks/complete/19
+###
